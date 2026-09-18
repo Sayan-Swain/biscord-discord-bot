@@ -309,6 +309,6 @@ Make sure you granted the bot `applications.commands` permission in your server 
 
 ## License
 
-[MIT](LICENSE.md)#   b i s c o r d - d i s c o r d - b o t 
+[MIT](LICENSE.md)
  
  
