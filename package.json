@@ -1,0 +1,32 @@
+{
+  "name": "event-mod-bot",
+  "version": "1.0.0",
+  "description": "Discord bot: moderation + welcomer + multi-event roster signup panels",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "prestart": "node scripts/ensure-deps.js",
+    "start": "node run.js",
+    "deploy": "node scripts/deploy-commands.js",
+    "postinstall": "node scripts/ensure-deps.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "discord-api-types": "^0.38.50",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.3.0",
+    "figlet": "^1.11.4",
+    "libsodium-wrappers": "^0.8.4",
+    "opusscript": "^0.0.8"
+  },
+  "allowScripts": {
+    "@distube/yt-dlp": true,
+    "ffmpeg-static": true
+  }
+}
