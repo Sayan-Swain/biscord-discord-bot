@@ -17,7 +17,7 @@ Moderation · Event Rosters · Giveaways · Music · Voice Tools · Live Server 
 
 ## Overview
 
-BisCORD is a self-hosted, all-in-one Discord bot covering the essentials a growing server needs. It ships with a **live configuration dashboard**, **reaction-based roster panels**, **giveaways**, **music playback**, **TTS in voice channels**, and a full **moderation toolkit** — all stored locally in JSON, so no external database required.
+BISCORD is a self-hosted, all-in-one Discord bot covering the essentials a growing server needs. It ships with a **live configuration dashboard**, **reaction-based roster panels**, **giveaways**, **music playback**, **TTS in voice channels**, and a full **moderation toolkit** — all stored locally in JSON, so no external database required.
 
 Key design points:
 
@@ -309,5 +309,6 @@ Make sure you granted the bot `applications.commands` permission in your server 
 
 ## License
 
-[MIT](LICENSE.md)#   b i s c o r d - d i s c o r d - b o t  
- 
+[MIT](LICENSE.md)#   b i s c o r d - d i s c o r d - b o t 
+ 
+ 
